@@ -1,0 +1,22 @@
+model: gpt-4
+max_tokens: 3000
+temperature: 0.7
+timeout: 60
+reasoning:
+  CoT:
+    max_steps: 8
+  ToT:
+    breadth: 3
+    depth: 3
+    search: BFS
+  HyperTree:
+    levels: 4
+    decomposition: hierarchical
+evaluation_weights:
+  reasoning_quality: 0.25
+  geospatial_accuracy: 0.25
+  data_integration: 0.25
+  solution_validity: 0.25
+limits:
+  max_cost_per_experiment: 25.0
+  daily_token_limit: 50000
