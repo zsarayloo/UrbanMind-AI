@@ -14,7 +14,7 @@ def load_config(config_path: str = "configs/llm_config.yaml") -> dict:
     if os.path.exists(env_path):
         load_dotenv(dotenv_path=env_path)
     else:
-        print(f"⚠️ .env file not found at {env_path}")
+        print(f".env file not found at {env_path}")
 
     # Load YAML config
     if not os.path.exists(config_path):
@@ -26,8 +26,6 @@ def load_config(config_path: str = "configs/llm_config.yaml") -> dict:
     # Inject env variables
     config["env"] = {
         "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY", ""),
-        "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY", ""),
-        "WANDB_API_KEY": os.getenv("WANDB_API_KEY", "")
     }
 
     return config
