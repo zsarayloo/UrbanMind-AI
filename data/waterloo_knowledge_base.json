@@ -1,0 +1,10 @@
+records = []
+for _, row in candidate.iterrows():
+    records.append({
+        "parcel_id": row["PARCEL_ID"],
+        "coordinates": [row.centroid.y, row.centroid.x],
+        "area_hectares": row.area_ha,
+        "zoning": row["ZONE"],
+        "district": row["DISTRICT_NAME"],
+        # plus distances and computed scores...
+    })
