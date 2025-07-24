@@ -1,0 +1,59 @@
+[
+    {
+      "parcel_id": "WB-001",
+      "coordinates": [43.4668, -80.5234],
+      "area_hectares": 12.3,
+      "zoning": "Institutional",
+      "municipality": "Waterloo",
+      "school_age_population": 845,
+      "distance_to_nearest_school_km": 1.8,
+      "transit_access_score": 7.5,
+      "road_access_score": 8.1,
+      "environmental_flags": ["None"],
+      "amenities_nearby": ["Library", "Community Center"],
+      "excluded": false
+    },
+    {
+      "parcel_id": "WB-002",
+      "coordinates": [43.4721, -80.5400],
+      "area_hectares": 9.7,
+      "zoning": "Residential",
+      "municipality": "Waterloo",
+      "school_age_population": 1200,
+      "distance_to_nearest_school_km": 2.4,
+      "transit_access_score": 6.2,
+      "road_access_score": 7.0,
+      "environmental_flags": ["Flood Plain"],
+      "amenities_nearby": ["Park", "Bus Stop"],
+      "excluded": true
+    },
+    {
+      "parcel_id": "KT-003",
+      "coordinates": [43.4517, -80.4980],
+      "area_hectares": 15.4,
+      "zoning": "Institutional",
+      "municipality": "Kitchener",
+      "school_age_population": 950,
+      "distance_to_nearest_school_km": 1.2,
+      "transit_access_score": 8.9,
+      "road_access_score": 8.3,
+      "environmental_flags": ["None"],
+      "amenities_nearby": ["Community Center", "Transit Hub"],
+      "excluded": false
+    },
+    {
+      "parcel_id": "KM-004",
+      "coordinates": [43.3940, -80.3840],
+      "area_hectares": 14.2,
+      "zoning": "Institutional",
+      "municipality": "Cambridge",
+      "school_age_population": 780,
+      "distance_to_nearest_school_km": 1.7,
+      "transit_access_score": 7.0,
+      "road_access_score": 6.5,
+      "environmental_flags": ["Protected Wetland"],
+      "amenities_nearby": ["Library", "Green Space"],
+      "excluded": false
+    }
+  ]
+  

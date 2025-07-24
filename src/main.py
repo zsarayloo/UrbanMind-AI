@@ -10,3 +10,4 @@ response = openai.ChatCompletion.create(
     temperature=config["temperature"],
     max_tokens=config["max_tokens"]
 )
+
